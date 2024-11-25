@@ -1,0 +1,48 @@
+Nov 24, 2024 8:28:59 PM src.Logger logInfo
+INFO: Application started.
+Nov 24, 2024 8:28:59 PM src.Logger logInfo
+INFO: Operations class test completed.
+Nov 24, 2024 8:29:05 PM src.Logger logInfo
+INFO: User selected menu option: a
+Nov 24, 2024 8:29:16 PM src.Logger logWarning
+WARNING: Invalid input for quantity.
+Nov 24, 2024 8:29:16 PM src.Logger logWarning
+WARNING: Invalid input for quantity.
+Nov 24, 2024 8:29:16 PM src.Logger logWarning
+WARNING: Invalid input for quantity.
+Nov 24, 2024 8:29:24 PM src.Logger logInfo
+INFO: Adding product: Name=Sugar, Description=1, Quantity=100, Price=5.99
+Nov 24, 2024 8:29:25 PM src.Logger logInfo
+INFO: Attempting to add a product: Sugar
+Nov 24, 2024 8:29:25 PM src.Logger logInfo
+INFO: Product added successfully.
+Nov 24, 2024 8:29:27 PM src.Logger logInfo
+INFO: User selected menu option: v
+Nov 24, 2024 8:29:27 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Nov 24, 2024 8:29:27 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Nov 24, 2024 8:29:27 PM src.Logger logInfo
+INFO: All products fetched successfully.
+Nov 24, 2024 8:29:31 PM src.Logger logInfo
+INFO: User selected menu option: u
+Nov 24, 2024 8:29:51 PM src.Logger logInfo
+INFO: Updating product ID=2 with new values: Name=eggs, Description=12 Large Eggs, Quantity=200, Price=4.49
+Nov 24, 2024 8:29:51 PM src.Logger logInfo
+INFO: Updating product with ID: 2 to new values.
+Nov 24, 2024 8:29:51 PM src.Logger logInfo
+INFO: Product updated successfully.
+Nov 24, 2024 8:29:56 PM src.Logger logInfo
+INFO: User selected menu option: d
+Nov 24, 2024 8:29:58 PM src.Logger logInfo
+INFO: Attempting to delete product with ID=6
+Nov 24, 2024 8:29:58 PM src.Logger logInfo
+INFO: Deleting product with ID: 6
+Nov 24, 2024 8:29:59 PM src.Logger logInfo
+INFO: Product deleted successfully.
+Nov 24, 2024 8:30:02 PM src.Logger logInfo
+INFO: User selected menu option: q
+Nov 24, 2024 8:30:02 PM src.Logger logInfo
+INFO: User exited the system.
+Nov 24, 2024 8:30:02 PM src.Logger logInfo
+INFO: Application shut down.

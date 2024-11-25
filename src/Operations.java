@@ -2,6 +2,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import src.Logger;
 
 public class Operations {
 
@@ -20,6 +21,7 @@ public class Operations {
             statement.setString(2, description);
             statement.setInt(3, quantity);
             statement.setDouble(4, price);
+            Logger.logInfo("Attempting to add a product: " + name); // Logger
             statement.executeUpdate();
             System.out.println("Product added successfully!");
         } catch (SQLException e) {
@@ -29,6 +31,8 @@ public class Operations {
 
     // Method to view all products
     public static void viewProducts() {
+        Logger.logInfo("Fetching all products from the database."); // Logger
+
         String query = "SELECT * FROM products";
 
         try (Connection connection = DatabaseConnector.connect();
@@ -53,6 +57,7 @@ public class Operations {
         try (Connection connection = DatabaseConnector.connect();
              PreparedStatement statement = connection.prepareStatement(query)) {
             statement.setInt(1, productId);
+            Logger.logInfo("Deleting product with ID: " + productId); // Logger
             statement.executeUpdate();
             System.out.println("Product deleted successfully!");
         } catch (SQLException e) {
@@ -71,6 +76,7 @@ public class Operations {
             statement.setInt(3, quantity);
             statement.setDouble(4, price);
             statement.setInt(5, productId);
+            Logger.logInfo("Updating product with ID: " + productId + " to new values."); // Logger
             statement.executeUpdate();
             System.out.println("Product updated successfully!");
         } catch (SQLException e) {
