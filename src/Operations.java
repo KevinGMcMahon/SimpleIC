@@ -83,6 +83,8 @@ public class Operations {
             System.err.println("Error updating product: " + e.getMessage());
         }
     }
+    /* CHANGES THAT MUST BE DONE BY MODULE 5 */
+
     // Add Search functionality (interaction #5)
 
     // Add Run Report functionality (interaction #6)
