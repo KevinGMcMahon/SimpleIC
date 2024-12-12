@@ -46,3 +46,343 @@ Nov 24, 2024 8:30:02 PM src.Logger logInfo
 INFO: User exited the system.
 Nov 24, 2024 8:30:02 PM src.Logger logInfo
 INFO: Application shut down.
+Dec 07, 2024 8:31:46 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 8:31:46 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 8:31:58 PM src.Logger logInfo
+INFO: User selected menu option: a
+Dec 07, 2024 8:32:09 PM src.Logger logWarning
+WARNING: Invalid input for quantity.
+Dec 07, 2024 8:32:09 PM src.Logger logWarning
+WARNING: Invalid input for quantity.
+Dec 07, 2024 8:32:09 PM src.Logger logWarning
+WARNING: Invalid input for quantity.
+Dec 07, 2024 8:32:23 PM src.Logger logInfo
+INFO: Adding product: Name=Test, Description=This, Quantity=10, Price=25.0
+Dec 07, 2024 8:32:24 PM src.Logger logInfo
+INFO: Attempting to add a product: Test
+Dec 07, 2024 8:32:24 PM src.Logger logInfo
+INFO: Product added successfully.
+Dec 07, 2024 8:54:00 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 8:54:00 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 8:54:07 PM src.Logger logInfo
+INFO: User selected menu option: s
+Dec 07, 2024 8:54:23 PM src.Logger logInfo
+INFO: User selected menu option: e
+Dec 07, 2024 8:54:23 PM src.Logger logInfo
+INFO: Inventory exported successfully to inventory.csv
+Dec 07, 2024 8:54:28 PM src.Logger logInfo
+INFO: User selected menu option: q
+Dec 07, 2024 8:54:28 PM src.Logger logInfo
+INFO: User exited the system.
+Dec 07, 2024 8:54:28 PM src.Logger logInfo
+INFO: Application shut down.
+Dec 07, 2024 9:01:50 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 9:01:50 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 9:01:57 PM src.Logger logInfo
+INFO: User selected menu option: a
+Dec 07, 2024 9:02:15 PM src.Logger logInfo
+INFO: Adding product: Name=Test2, Description=, Quantity=2, Price=2.0
+Dec 07, 2024 9:02:16 PM src.Logger logInfo
+INFO: Product added: Test2
+Dec 07, 2024 9:02:16 PM src.Logger logInfo
+INFO: Product added successfully.
+Dec 07, 2024 9:02:42 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 9:02:42 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 9:02:43 PM src.Logger logInfo
+INFO: User selected menu option: a
+Dec 07, 2024 9:02:52 PM src.Logger logWarning
+WARNING: Invalid input for quantity.
+Dec 07, 2024 9:02:52 PM src.Logger logWarning
+WARNING: Invalid input for quantity.
+Dec 07, 2024 9:02:52 PM src.Logger logWarning
+WARNING: Invalid input for quantity.
+Dec 07, 2024 9:03:16 PM src.Logger logInfo
+INFO: Adding product: Name=test3, Description=This, Quantity=20, Price=19.99
+Dec 07, 2024 9:03:16 PM src.Logger logInfo
+INFO: Product added: test3
+Dec 07, 2024 9:03:16 PM src.Logger logInfo
+INFO: Product added successfully.
+Dec 07, 2024 9:03:19 PM src.Logger logInfo
+INFO: User selected menu option: v
+Dec 07, 2024 9:03:19 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 9:03:19 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 9:03:19 PM src.Logger logInfo
+INFO: All products fetched successfully.
+Dec 07, 2024 9:04:39 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 9:04:39 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 9:04:42 PM src.Logger logInfo
+INFO: User selected menu option: a
+Dec 07, 2024 9:06:02 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 9:06:02 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 9:06:04 PM src.Logger logInfo
+INFO: User selected menu option: a
+Dec 07, 2024 9:06:22 PM src.Logger logInfo
+INFO: Adding product: Name=test5, Description=This is a test, Quantity=20, Price=25.99
+Dec 07, 2024 9:06:23 PM src.Logger logInfo
+INFO: Product added: test5
+Dec 07, 2024 9:06:23 PM src.Logger logInfo
+INFO: Product added successfully.
+Dec 07, 2024 9:08:51 PM src.Logger logInfo
+INFO: User selected menu option: d
+Dec 07, 2024 9:09:03 PM src.Logger logInfo
+INFO: Attempting to delete product with ID=6
+Dec 07, 2024 9:09:03 PM src.Logger logInfo
+INFO: Deleting product with ID: 6
+Dec 07, 2024 9:09:03 PM src.Logger logInfo
+INFO: Product deleted successfully.
+Dec 07, 2024 9:11:38 PM src.Logger logInfo
+INFO: User selected menu option: d
+Dec 07, 2024 9:11:44 PM src.Logger logInfo
+INFO: Attempting to delete product with ID=6
+Dec 07, 2024 9:11:44 PM src.Logger logInfo
+INFO: Deleting product with ID: 6
+Dec 07, 2024 9:11:44 PM src.Logger logInfo
+INFO: Product deleted successfully.
+Dec 07, 2024 9:12:47 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 9:12:47 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 9:12:50 PM src.Logger logInfo
+INFO: User selected menu option: d
+Dec 07, 2024 9:12:52 PM src.Logger logInfo
+INFO: Attempting to delete product with ID=6
+Dec 07, 2024 9:12:53 PM src.Logger logSevere
+SEVERE: Error deleting product: Cannot add or update a child row: a foreign key constraint fails (`simple_ic`.`inventory_logs`, CONSTRAINT `inventory_logs_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE)
+Dec 07, 2024 9:12:53 PM src.Logger logInfo
+INFO: Product deleted successfully.
+Dec 07, 2024 9:13:05 PM src.Logger logInfo
+INFO: User selected menu option: v
+Dec 07, 2024 9:13:05 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 9:13:05 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 9:13:05 PM src.Logger logInfo
+INFO: All products fetched successfully.
+Dec 07, 2024 9:22:49 PM src.Logger logInfo
+INFO: User selected menu option: d
+Dec 07, 2024 9:22:54 PM src.Logger logInfo
+INFO: Attempting to delete product with ID=9
+Dec 07, 2024 9:22:54 PM src.Logger logSevere
+SEVERE: Error deleting product: Cannot add or update a child row: a foreign key constraint fails (`simple_ic`.`inventory_logs`, CONSTRAINT `inventory_logs_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE)
+Dec 07, 2024 9:22:54 PM src.Logger logInfo
+INFO: Product deleted successfully.
+Dec 07, 2024 9:23:37 PM src.Logger logInfo
+INFO: User selected menu option: d
+Dec 07, 2024 9:23:39 PM src.Logger logInfo
+INFO: Attempting to delete product with ID=6
+Dec 07, 2024 9:23:39 PM src.Logger logSevere
+SEVERE: Error deleting product: Cannot add or update a child row: a foreign key constraint fails (`simple_ic`.`inventory_logs`, CONSTRAINT `inventory_logs_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE)
+Dec 07, 2024 9:23:39 PM src.Logger logInfo
+INFO: Product deleted successfully.
+Dec 07, 2024 9:32:47 PM src.Logger logInfo
+INFO: User selected menu option: d
+Dec 07, 2024 9:32:53 PM src.Logger logInfo
+INFO: Attempting to delete product with ID=4
+Dec 07, 2024 9:32:53 PM src.Logger logSevere
+SEVERE: Error deleting product: Cannot add or update a child row: a foreign key constraint fails (`simple_ic`.`inventory_logs`, CONSTRAINT `inventory_logs_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE)
+Dec 07, 2024 9:32:53 PM src.Logger logInfo
+INFO: Product deleted successfully.
+Dec 07, 2024 9:52:40 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 9:52:40 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 9:52:44 PM src.Logger logInfo
+INFO: User selected menu option: v
+Dec 07, 2024 9:52:44 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 9:52:44 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 9:52:44 PM src.Logger logInfo
+INFO: All products fetched successfully.
+Dec 07, 2024 9:53:08 PM src.Logger logInfo
+INFO: User selected menu option: d
+Dec 07, 2024 9:53:10 PM src.Logger logInfo
+INFO: Attempting to delete product with ID=8
+Dec 07, 2024 9:53:10 PM src.Logger logInfo
+INFO: Deleting product with ID: 8
+Dec 07, 2024 9:53:10 PM src.Logger logInfo
+INFO: Product with ID 8 and name "Test" was deleted.
+Dec 07, 2024 9:53:10 PM src.Logger logInfo
+INFO: Product deleted successfully.
+Dec 07, 2024 9:53:17 PM src.Logger logInfo
+INFO: User selected menu option: d
+Dec 07, 2024 9:53:32 PM src.Logger logInfo
+INFO: Attempting to delete product with ID=9
+Dec 07, 2024 9:53:32 PM src.Logger logInfo
+INFO: Deleting product with ID: 9
+Dec 07, 2024 9:53:32 PM src.Logger logInfo
+INFO: Product with ID 9 and name "Test2" was deleted.
+Dec 07, 2024 9:53:32 PM src.Logger logInfo
+INFO: Product deleted successfully.
+Dec 07, 2024 9:53:35 PM src.Logger logInfo
+INFO: User selected menu option: d
+Dec 07, 2024 9:53:39 PM src.Logger logInfo
+INFO: Attempting to delete product with ID=10
+Dec 07, 2024 9:53:39 PM src.Logger logInfo
+INFO: Deleting product with ID: 10
+Dec 07, 2024 9:53:39 PM src.Logger logInfo
+INFO: Product with ID 10 and name "test3" was deleted.
+Dec 07, 2024 9:53:39 PM src.Logger logInfo
+INFO: Product deleted successfully.
+Dec 07, 2024 9:53:59 PM src.Logger logInfo
+INFO: User selected menu option: a
+Dec 07, 2024 9:54:23 PM src.Logger logInfo
+INFO: Adding product: Name=Sugar, Description=1 lb of granulated cane sugar, Quantity=200, Price=9.99
+Dec 07, 2024 9:54:23 PM src.Logger logInfo
+INFO: Product added: Sugar
+Dec 07, 2024 9:54:23 PM src.Logger logInfo
+INFO: Product added successfully.
+Dec 07, 2024 9:54:25 PM src.Logger logInfo
+INFO: User selected menu option: v
+Dec 07, 2024 9:54:25 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 9:54:25 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 9:54:25 PM src.Logger logInfo
+INFO: All products fetched successfully.
+Dec 07, 2024 10:00:58 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 10:00:58 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 10:01:02 PM src.Logger logInfo
+INFO: User selected menu option: a
+Dec 07, 2024 10:01:41 PM src.Logger logInfo
+INFO: Adding product: Name=Cereal, Description=Toasted Oat Flakes 14oz, Quantity=250, Price=4.59
+Dec 07, 2024 10:01:42 PM src.Logger logInfo
+INFO: Product added: Cereal
+Dec 07, 2024 10:01:42 PM src.Logger logInfo
+INFO: Product added successfully.
+Dec 07, 2024 10:03:06 PM src.Logger logInfo
+INFO: User selected menu option: v
+Dec 07, 2024 10:03:06 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 10:03:06 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 10:03:06 PM src.Logger logInfo
+INFO: All products fetched successfully.
+Dec 07, 2024 10:03:40 PM src.Logger logInfo
+INFO: User selected menu option: v
+Dec 07, 2024 10:03:40 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 10:03:40 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 10:03:40 PM src.Logger logInfo
+INFO: All products fetched successfully.
+Dec 07, 2024 10:03:49 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 10:03:49 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 10:03:51 PM src.Logger logInfo
+INFO: User selected menu option: v
+Dec 07, 2024 10:03:51 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 10:03:51 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 10:03:52 PM src.Logger logInfo
+INFO: All products fetched successfully.
+Dec 07, 2024 10:04:59 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 10:04:59 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 10:05:03 PM src.Logger logInfo
+INFO: User selected menu option: s
+Dec 07, 2024 10:05:51 PM src.Logger logInfo
+INFO: User selected menu option: u
+Dec 07, 2024 10:06:47 PM src.Logger logInfo
+INFO: Updating product ID=13 with new values: Name=Toasty Oats Cereal, Description=14oz Box of Toasted Oat Flakes, Quantity=249, Price=5.49
+Dec 07, 2024 10:06:47 PM src.Logger logInfo
+INFO: Updating product with ID: 13 to new values.
+Dec 07, 2024 10:06:47 PM src.Logger logInfo
+INFO: Product updated successfully.
+Dec 07, 2024 10:07:14 PM src.Logger logInfo
+INFO: User selected menu option: v
+Dec 07, 2024 10:07:14 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 10:07:14 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 10:07:14 PM src.Logger logInfo
+INFO: All products fetched successfully.
+Dec 07, 2024 10:09:14 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 10:09:14 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 10:09:19 PM src.Logger logInfo
+INFO: User selected menu option: d
+Dec 07, 2024 10:09:22 PM src.Logger logInfo
+INFO: Attempting to delete product with ID=13
+Dec 07, 2024 10:09:22 PM src.Logger logInfo
+INFO: Deleting product with ID: 13
+Dec 07, 2024 10:09:22 PM src.Logger logInfo
+INFO: Product with ID 13 and name "Toasty Oats Cereal" was deleted.
+Dec 07, 2024 10:09:22 PM src.Logger logInfo
+INFO: Product deleted successfully.
+Dec 07, 2024 10:10:52 PM src.Logger logInfo
+INFO: User selected menu option: v
+Dec 07, 2024 10:10:52 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 10:10:52 PM src.Logger logInfo
+INFO: Fetching all products from the database.
+Dec 07, 2024 10:10:52 PM src.Logger logInfo
+INFO: All products fetched successfully.
+Dec 07, 2024 10:13:19 PM src.Logger logInfo
+INFO: Application started.
+Dec 07, 2024 10:13:19 PM src.Logger logInfo
+INFO: Operations class test completed.
+Dec 07, 2024 10:13:23 PM src.Logger logInfo
+INFO: User selected menu option: e
+Dec 07, 2024 10:13:24 PM src.Logger logInfo
+INFO: Inventory exported successfully to inventory.csv
+Dec 11, 2024 9:08:17 PM src.Logger logInfo
+INFO: Database tables verified/created successfully
+Dec 11, 2024 9:08:19 PM src.Logger logInfo
+INFO: Connected to the database successfully.
+Dec 11, 2024 9:08:19 PM src.Logger logInfo
+INFO: Successfully retrieved 6 products from the database.
+Dec 11, 2024 9:08:37 PM src.Logger logInfo
+INFO: Successfully retrieved 6 products from the database.
+Dec 11, 2024 9:09:48 PM src.Logger logInfo
+INFO: Updating product with ID: 12 to new values.
+Dec 11, 2024 9:09:48 PM src.Logger logInfo
+INFO: Successfully retrieved 6 products from the database.
+Dec 11, 2024 9:10:08 PM src.Logger logInfo
+INFO: Updating product with ID: 12 to new values.
+Dec 11, 2024 9:10:08 PM src.Logger logInfo
+INFO: Successfully retrieved 6 products from the database.
+Dec 11, 2024 9:10:18 PM src.Logger logInfo
+INFO: Deleting product with ID: 12
+Dec 11, 2024 9:10:18 PM src.Logger logInfo
+INFO: Product with ID 12 and name "Sugar 1lb" was deleted.
+Dec 11, 2024 9:10:18 PM src.Logger logInfo
+INFO: Successfully retrieved 5 products from the database.
+Dec 11, 2024 9:10:54 PM src.Logger logInfo
+INFO: Product added: Canned Tuna
+Dec 11, 2024 9:10:54 PM src.Logger logInfo
+INFO: Successfully retrieved 6 products from the database.
+Dec 11, 2024 9:11:06 PM src.Logger logInfo
+INFO: Inventory exported successfully to inventory.csv
+Dec 11, 2024 9:12:23 PM src.Logger logInfo
+INFO: Updating product with ID: 1 to new values.
+Dec 11, 2024 9:12:23 PM src.Logger logInfo
+INFO: Successfully retrieved 6 products from the database.
+Dec 11, 2024 9:13:38 PM src.Logger logInfo
+INFO: Database tables verified/created successfully
+Dec 11, 2024 9:13:40 PM src.Logger logInfo
+INFO: Connected to the database successfully.
+Dec 11, 2024 9:13:40 PM src.Logger logInfo
+INFO: Successfully retrieved 6 products from the database.
+Dec 11, 2024 9:14:07 PM src.Logger logInfo
+INFO: Successfully retrieved 6 products from the database.
