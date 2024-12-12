@@ -19,8 +19,10 @@ public class InventoryControlSystem {
             System.out.println("Welcome to Simple IC: Inventory Control System");
             System.out.println("a. Add new item to inventory");
             System.out.println("v. View current stock levels");
+            System.out.println("s. Search for a product");
             System.out.println("u. Update item details");
             System.out.println("d. Delete an item from inventory");
+            System.out.println("e. Export inventory to CSV");
             System.out.println("q. Quit");
             System.out.println("=================================");
 
@@ -33,8 +35,11 @@ public class InventoryControlSystem {
                     System.out.print("Enter product name: ");
                     String name = scanner.next();
 
+                    scanner.nextLine();
+
                     System.out.print("Enter description: ");
-                    String description = scanner.next();
+                    String description = scanner.nextLine();
+
 
                     int quantity = 0;
                     boolean validInput = false;
@@ -63,6 +68,13 @@ public class InventoryControlSystem {
                     Logger.logInfo("Fetching all products from the database."); //Logger
                     Operations.viewProducts();
                     Logger.logInfo("All products fetched successfully."); //Logger
+                    break;
+
+                case 's': // Search for a product
+                    System.out.print("Enter search term (name or description): ");
+                    scanner.nextLine(); // Consume the leftover newline
+                    String searchTerm = scanner.nextLine();
+                    Operations.searchProducts(searchTerm);
                     break;
 
                 case 'u': // Update a product
@@ -100,6 +112,11 @@ public class InventoryControlSystem {
                     Operations.deleteProduct(deleteId);
                     Logger.logInfo("Product deleted successfully."); //Logger
                     break;
+
+                case 'e': // Export inventory to CSV
+                    Operations.exportInventoryToCSV();
+                    break;
+
 
                 case 'q': // Quit the program
                     Logger.logInfo("User exited the system."); //Logger
